@@ -19,6 +19,9 @@ header section {
   display: flex;
   align-items: center;
 }
+header section h1 {
+  font-weight: 450;
+}
 header nav {
   width: 40%;
 }
@@ -32,24 +35,37 @@ header nav ul a {
 }
 
 .sessaoPrevencao {
-  height: 80vh;
+  height: 50vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #d8a8c0;
+  background-color: #FFD9EC;
 }
 .sessaoPrevencao p {
   width: 50%;
   font-size: 25px;
-  color: #E4EEF1;
+  color: #000;
 }
 
-.sesaoCorrida {
+.sessaoCorrida {
   height: 35vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #FF69B4;
+}
+.sessaoCorrida p {
+  width: 50%;
+  font-size: 25px;
+  color: #E4EEF1;
+}
+
+.sessaoDicas {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFD9EC;
 }
 
 @media (max-width: 500px) {
@@ -75,16 +91,35 @@ header nav ul a {
   .sessaoPrevencao img {
     width: 75%;
   }
-  .sesaoCorrida {
+  .sessaoCorrida {
     height: 80vh;
     flex-direction: column;
   }
-  .sesaoCorrida img {
+  .sessaoCorrida img {
     width: 75%;
   }
-  .sesaoCorrida p {
+  .sessaoCorrida p {
     width: 90%;
     font-size: 20px;
     text-align: center;
   }
+}
+footer {
+  background-color: #FF69B4;
+  padding: 10px 0;
+  text-align: center;
+}
+footer .midiaSocial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+footer .midiaSocial img {
+  width: 40px;
+}
+footer .midiaSocial p {
+  color: #E4EEF1;
+  margin-top: 10px;
 }/*# sourceMappingURL=index.css.map */

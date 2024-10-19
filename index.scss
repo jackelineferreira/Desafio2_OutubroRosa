@@ -19,6 +19,10 @@ header {
     section {
         display: flex;
         align-items: center;
+
+        h1 {
+            font-weight: 450;
+        }
     }
 
     nav {
@@ -39,27 +43,42 @@ header {
 }
 
 .sessaoPrevencao {
-    height: 80vh;
+    height: 50vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #d8a8c0;
+    background-color: #FFD9EC;
 
     p {
         width: 50%;
         font-size: 25px;
-        color: #E4EEF1;
+        color: #000;
     }
 }
 
-.sesaoCorrida {
+.sessaoCorrida {
     height: 35vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #FF69B4;
 
+    p {
+        width: 50%;
+        font-size: 25px;
+        color: #E4EEF1;
+    }
+
 }
+
+.sessaoDicas {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD9EC;
+}
+
 
 @media (max-width:500px) {
     header {
@@ -92,7 +111,7 @@ header {
         }
     }
 
-    .sesaoCorrida {
+    .sessaoCorrida {
         height: 80vh;
         flex-direction: column;
 
@@ -106,5 +125,28 @@ header {
             text-align: center;
         }
 
+    }
+}
+
+footer {
+    background-color: #FF69B4;
+    padding: 10px 0;
+    text-align: center;
+
+    .midiaSocial {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 50%;
+        margin: 0 auto;
+       
+        img {
+            width: 40px;
+        }
+
+        p {
+            color: #E4EEF1;
+            margin-top: 10px;
+        }
     }
 }
