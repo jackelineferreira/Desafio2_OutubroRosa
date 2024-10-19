@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+}
+header section {
+  display: flex;
+  align-items: center;
+}
+header nav {
+  width: 40%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul a {
+  color: #E4EEF1;
+  font-size: 28px;
+}
+
+.sessaoPrevencao {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d8a8c0;
+}
+.sessaoPrevencao p {
+  width: 50%;
+  font-size: 25px;
+  color: #E4EEF1;
+}
+
+.sesaoCorrida {
+  height: 35vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 20vh;
+    flex-direction: column;
+  }
+  header nav {
+    width: 95%;
+  }
+  header nav ul a {
+    font-size: 22px;
+  }
+  .sessaoPrevencao {
+    height: 50vh;
+    flex-direction: column-reverse;
+  }
+  .sessaoPrevencao p {
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .sessaoPrevencao img {
+    width: 75%;
+  }
+  .sesaoCorrida {
+    height: 80vh;
+    flex-direction: column;
+  }
+  .sesaoCorrida img {
+    width: 75%;
+  }
+  .sesaoCorrida p {
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=index.css.map */
